@@ -1,0 +1,85 @@
+/* Base */
+html {
+  font-size: 18px;
+}
+
+/* 01 Font family */
+
+@font-face {
+  font-family: "Michroma"; // Assign a name to your font family
+  src: url("/assets/fonts/Michroma-Regular.ttf") format("truetype"); // TTF as a fallback
+  font-weight: 400; // Specify the font's weight (Michroma is regular/400)
+  font-style: normal; // Specify the font's style (Michroma is normal)
+  font-display: swap; // Optimize font loading and prevent flash of unstyled text
+}
+
+
+html {
+  font-family: "Michroma", sans-serif;
+}
+
+/* 03 Spacing */
+
+
+.padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.main-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+div.main-content h2 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+header h1, h5 {
+  display: inline;
+}
+
+/* 04 Color and contrast */
+
+body {
+  color: #c5ccce;
+  background-color: #282f3a;
+}
+
+h1,
+h2,
+strong {
+  color: #dcdede;
+}
+
+header h5 {
+  font-weight: lighter;
+}
+
+/* 05 Balance */
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+/* 06 Primary color */
+
+a {
+  color: #7e92a2;
+}
+
+/* 07 Secondary colors */
+
+h1,
+h2,
+strong {
+  font-weight: 500;
+}
+
+.current {
+  color: ghostwhite;
+}
