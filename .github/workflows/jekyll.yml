@@ -43,6 +43,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Debug pages outputs
+        run: echo "${{ toJson(steps.pages.outputs) }}"
       - name: Show current directory and files before build
         run: |
           pwd
