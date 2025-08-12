@@ -48,9 +48,8 @@ jobs:
           pwd
           ls -al
       - name: Show baseurl
-        run:
+        run: |
           echo "Baseurl: ${{ steps.pages.outputs.base_path }}"
-
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
