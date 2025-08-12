@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: ~/webpage
+source: .
 incremental: false
 highlighter: rouge
 gist:
