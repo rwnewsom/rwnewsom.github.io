@@ -31,8 +31,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Show current directory
-        run: pwd
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
