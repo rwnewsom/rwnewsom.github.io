@@ -92,4 +92,37 @@ strong {
   color: ghostwhite;
 }
 
+/* 08 Icons */
+.social-icons {
+  margin-top: 2em;
+  margin-left: 2em;
+  text-align: left;
+}
+.social-icons .screen-readers-only {
+  display: none;
+}
+.social-icons a {
+  display: inline-block;
+  padding: 12px;
+}
+.social-icons a:hover {
+  filter: brightness(150%);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.social-icons .screen-readers-only {
+  display: none;
+}
+
+.social-icons .balloon[data-balloon-pos="down"]::after {
+  background: #282f3a;
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-family: "Michroma", sans-serif;
+}
+
 /*# sourceMappingURL=styles.css.map */
