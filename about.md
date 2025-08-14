@@ -19,16 +19,19 @@ title: About
       <li>Ruby (Jekyll)</li>
     </ul>
   </li>
-  <li>Current Student @ Oregon State (CS Post-Bacc)</li>
-  <li>Master&#39;s in Business - Supply Chain Management &amp; Logistics (University of Kansas)</li>
-  <li>Domain Knowledge:
-    <ul>
-      <li>Supply Chain Management</li>
-      <li>Logistics</li>
-      <li>ITAR / Trade Security Controls</li>
-      <li>Business Process Integration with SAP</li>
-      <li>Distribution Management</li>
-    </ul>
-  </li>
+<br/>  
+<li>Current Student @ Oregon State (CS Post-Bacc)</li>
+<br/>
+<li>Master&#39;s in Business - Supply Chain Management &amp; Logistics (University of Kansas)</li>
+<br/>
+<li>Domain Knowledge:
+<ul>
+  <li>Supply Chain Management</li>
+  <li>Logistics</li>
+  <li>ITAR / Trade Security Controls</li>
+  <li>Business Process Integration with SAP</li>
+  <li>Distribution Management</li>
+</ul>
+</li>
 </ul>
 </div>
