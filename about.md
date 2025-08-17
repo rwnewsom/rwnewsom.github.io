@@ -9,7 +9,7 @@ title: About
     <ul>
       <li>Python (Flask)</li>
       <li>MongoDB</li>
-      <li>SQL (PostgreSQL, MySQL)<br />&nbsp;</li>
+      <li>SQL (PostgreSQL)</li>
     </ul>
   </li>
   <li>Building New Skills
@@ -17,6 +17,9 @@ title: About
       <li>o11y</li>
       <li>otel</li>
       <li>Ruby (Jekyll)</li>
+      <li>Cypress</li>
+      <li>GitHub Actions / CI-CD</li>
+      <li>Docker</li>
     </ul>
   </li>
 <br/>  
