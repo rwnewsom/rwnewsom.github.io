@@ -1,6 +1,10 @@
 name: Cypress Tests
 
-on: [push, pull_request]
+on:
+  workflow_run:
+    workflows: ["Deploy Jekyll site to Pages"]
+    types:
+      - completed
 
 jobs:
   test:
@@ -17,16 +21,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-
-      - name: Install Bundler dependencies
-        run: bundle install
-
-      - name: Start Jekyll server
-        run: bundle exec jekyll serve --detach
-
       - name: Run Cypress tests
-        run: npm run cypress:run
+        run: npx cypress run --config baseUrl=https://rwnewsom.github.io/
