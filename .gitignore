@@ -16,3 +16,6 @@ vendor/
 .idea
 venv/
 node_modules/
+
+# Ignore cypress/screenshots
+cypress/screenshots/
