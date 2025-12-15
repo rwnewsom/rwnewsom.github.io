@@ -10,8 +10,10 @@ title: About
       <li>Python (Flask)</li>
       <li>MongoDB</li>
       <li>SQL (PostgreSQL)</li>
+      <li>C#</li>
     </ul>
   </li>
+<br/>
   <li>Building New Skills
     <ul>
       <li>o11y</li>
