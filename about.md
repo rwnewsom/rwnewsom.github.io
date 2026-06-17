@@ -8,6 +8,8 @@ title: About
   <li>Backend Developer
     <ul>
       <li>Python (Flask)</li>
+      <li>React</li>
+      <li>JavaScript</li>
       <li>MongoDB</li>
       <li>SQL (PostgreSQL)</li>
       <li>C#</li>
@@ -25,7 +27,7 @@ title: About
     </ul>
   </li>
 <br/>  
-<li>Current Student @ Oregon State (CS Post-Bacc)</li>
+<li>Part Time Student @ Oregon State (CS Post-Bacc)</li>
 <br/>
 <li>Master&#39;s in Business - Supply Chain Management &amp; Logistics (University of Kansas)</li>
 <br/>
