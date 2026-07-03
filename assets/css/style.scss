@@ -1,6 +1,21 @@
 ---
 ---
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+/* Variables */
+$bg-dark: #282f3a;
+$text-primary: #c5ccce;
+$text-secondary: #dcdede;
+$link-color: #7e92a2;
+$accent-color: ghostwhite;
+
+$spacing-sm: 15px;
+$spacing-md: 30px;
+$spacing-lg: 2em;
+
+$font-primary: "Michroma", sans-serif;
+$font-secondary: eurostile, sans-serif;
+
 /* Base */
 html {
   font-size: 18px;
@@ -11,28 +26,34 @@ html {
     font-size: 16px;
   }
   .main-content {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
   }
   h1, h2 {
     font-size: 1.5em;
   }
   .padded {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
     line-height: 24px;
   }
 }
 
-/* 01 Font family */
+/* Font family */
 html {
-  font-family: "Michroma", sans-serif;
+  font-family: $font-primary;
 }
 
-/* 03 Spacing */
+p {
+  font-family: $font-secondary;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Spacing */
 .padded {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: $spacing-md;
+  padding-bottom: $spacing-md;
   line-height: 30px;
 }
 
@@ -40,27 +61,27 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: $spacing-md;
+  padding-bottom: $spacing-md;
   line-height: 30px;
 }
 
 div.main-content h2 {
-  padding-top: 15px;
+  padding-top: $spacing-sm;
   padding-bottom: 5px;
 }
 
-header h1, h5 {
+header h1, header h5 {
   display: inline;
 }
 
-nav  a {
-  margin-left: 2em;
+nav a {
+  margin-left: $spacing-lg;
   text-decoration: none;
 }
 
 .intro, .about, .blog {
-  margin-left: 2em;
+  margin-left: $spacing-lg;
 }
 
 .intro p span {
@@ -68,34 +89,32 @@ nav  a {
   margin-bottom: 1em;
 }
 
-/* 04 Color and contrast */
+/* Color and contrast */
 body {
-  color: #c5ccce;
-  background-color: #282f3a;
+  color: $text-primary;
+  background-color: $bg-dark;
 }
 
 h1,
 h2,
 strong {
-  color: #dcdede;
+  color: $text-secondary;
 }
 
 header h5 {
   font-weight: lighter;
 }
 
-/* 05 Balance */
+/* Typography */
 code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
 
-/* 06 Primary color */
 a {
-  color: #7e92a2;
+  color: $link-color;
 }
 
-/* 07 Secondary colors */
 h1,
 h2,
 strong {
@@ -103,40 +122,36 @@ strong {
 }
 
 .current {
-  color: ghostwhite;
+  color: $accent-color;
 }
 
-/* 08 Icons */
+/* Social icons */
 .social-icons {
-  margin-top: 2em;
-  margin-left: 2em;
+  margin-top: $spacing-lg;
+  margin-left: $spacing-lg;
   text-align: left;
 }
+
 .social-icons .screen-readers-only {
   display: none;
 }
+
 .social-icons a {
   display: inline-block;
   padding: 12px;
 }
+
 .social-icons a:hover {
   filter: brightness(150%);
   transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-}
-
-.social-icons .screen-readers-only {
-  display: none;
 }
 
 .social-icons .balloon[data-balloon-pos="down"]::after {
-  background: #282f3a;
+  background: $bg-dark;
   color: #fff;
   border-radius: 6px;
   padding: 6px 12px;
   font-size: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  font-family: "Michroma", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-family: $font-primary;
 }
-
-/*# sourceMappingURL=styles.css.map */
